@@ -1,0 +1,19 @@
+* {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: auto; */
+  grid-gap: 0.7rem;
+}
+
+.containerPhoto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 0.7rem;
+  cursor: pointer;
+}
